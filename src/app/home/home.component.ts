@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-
+  navigateTo(url: string): void {
+    window.open(url, '_blank');
+  }
 }
