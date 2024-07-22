@@ -143,8 +143,8 @@
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
-  width: 50%;
   margin-top: 3rem;
+  gap: 1rem;
 }
 
 .third .tools div {
@@ -178,13 +178,12 @@
 }
 
 .flower-4 {
-  position: absolute;
-  margin-top: 69.9rem;
   width: 20rem;
   align-self: flex-end;
+  margin-top: -17rem;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   .first .picture img {
     width: 30rem;
   }
@@ -209,15 +208,12 @@
     font-size: 4rem;
   }
 
-  .third .tools {
-    width: 50%;
-  }
 }
 
-@media (min-width: 600px) and (max-width: 991px) {
+@media (min-width: 600px) and (max-width: 1199px) {
 
   .flower-1 {
-    width: 15rem;
+    width: 10rem;
   }
 
   .first .picture .flower-3 {
@@ -262,42 +258,17 @@
     font-weight: 500;
   }
 
-  .tools {
-    display: flex;
-    justify-content: center;
-  }
-
   .third {
-    padding-bottom: 359px;
+    padding-bottom: 12rem;
   }
-
-  .tools {
-    margin-right: 1rem;
-  }
-  .third .tools .icon {
-    border-radius: 10rem;
-    width: 4rem;
-    height: 4rem;
-    background-color: #897C65;
-    padding: 1rem;
-  }
-
-  .third .tools .icon img {
-    width: 3.7rem;
-  }
-
-  .third .tools p {
-  font-size: 1.3rem;
-  font-weight: 900;
-  width: 9rem;
-  height: 1rem;
-  text-align: center;
-  font-family: "Abhaya Libre", serif;
-  margin-right: 0rem;
-}
 
 .flower-4 {
   width: 15rem;
+  margin-top: -12rem;
+}
+
+.tools{
+  scale: 0.8;
 }
 
   }
@@ -356,136 +327,18 @@
   }
 
   .third {
-    padding-bottom: 389px;
+    padding-bottom: 10rem;
   }
 
-  .tools {
-    margin-right: 10rem;
-  }
-  .third .tools .icon {
-    border-radius: 10rem;
-    width: 4rem;
-    height: 4rem;
-    background-color: #897C65;
-    padding: 1rem;
-  }
-
-  .third .tools .icon img {
-    width: 2.8rem;
-  }
 
 .flower-4 {
   width: 7rem;
+  margin-top: -6rem;
 }
 
-  .third .tools .icon {
-    border-radius: 10rem;
-    width: 2rem;
-    height: 2rem;
-    background-color: #897C65;
-    padding: 1rem;
-    margin-right: 0rem;
-  }
-
-  .third .tools p {
-    font-size: 0.9rem;
-    font-weight: 900;
-    color: #000;
-    width: 7rem;
-    height: 1rem;
-    text-align: center;
-    font-family: "Abhaya Libre", serif;
-    margin-right: 1rem;
-  }
-  }
-
-@media (min-width: 320px) and (max-width: 375px) {
-
-  .flower-1 {
-    width: 6rem;
-  }
-
-  .first .picture .flower-3 {
-    width: 7rem;
-    margin-top: 5.6rem;
-    margin-left: 6.3rem;
-  }
-
-  .first .picture img {
-    width: 12rem;
-  }
-
-.first .picture .flower-2 {
-    width: 7rem;
-    margin-top: -0.7rem;
-    margin-left: -1.3rem;
+.tools{
+  scale: 0.7;
 }
 
-  .second h1 {
-    font-size: 3rem;
-  }
 
-  .second h2 {
-    font-size: 1.5rem;
   }
-
-  .second p {
-    font-size: 0.8rem;
-  }
-
-  .second .date p {
-    font-size: 1.3rem;
-  }
-
-  .second .date .day {
-    font-size: 2.3rem;
-  }
-
-  .third .tools {
-    width: 85%;
-  }
-
-  .third {
-    padding-bottom: 443px;
-  }
-
-  .third .tools .icon {
-    border-radius: 10rem;
-    width: 4rem;
-    height: 4rem;
-    background-color: #897C65;
-    padding: 1rem;
-    margin-right: 0;
-  }
-
-  .third .tools .icon img {
-    width: 2.8rem;
-  }
-
-.flower-4 {
-  width: 7rem;
-}
-
-  .third .tools .icon {
-    border-radius: 10rem;
-    width: 2rem;
-    height: 2rem;
-    background-color: #897C65;
-    padding: 1rem;
-  }
-
-  .third .tools p {
-    font-size: 1rem;
-    font-weight: 900;
-    color: #000;
-    width: 6rem;
-    height: 1rem;
-    text-align: center;
-    font-family: "Abhaya Libre", serif;
-    margin-left: 1rem;
-  }
-
-  .tools {
-    margin-left: 6rem;
-  }
-}
