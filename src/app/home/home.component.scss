@@ -184,9 +184,6 @@
   align-self: flex-end;
 }
 
-/* Media Queries */
-
-/* Dispositivos muito grandes (monitores grandes e TVs) */
 @media (min-width: 1200px) {
   .first .picture img {
     width: 30rem;
@@ -217,7 +214,6 @@
   }
 }
 
-/* Dispositivos médios (tablets em modo retrato, telefones em modo paisagem) */
 @media (min-width: 600px) and (max-width: 991px) {
 
   .flower-1 {
@@ -307,43 +303,42 @@
   }
 
 
-/* Dispositivos pequenos (telefones em modo retrato) */
-@media (max-width: 599px) {
+@media (max-width: 425px) {
 
   .flower-1 {
-    width: 12rem;
+    width: 7rem;
   }
 
   .first .picture .flower-3 {
-    width: 7rem;
-    margin-top: 10rem;
-    margin-left: 12.3rem;
+    width: 6rem;
+    margin-top: 8rem;
+    margin-left: 10rem;
   }
 
   .first .picture img {
-    width: 18rem;
+    width: 15rem;
   }
 
 .first .picture .flower-2 {
-    width: 7rem;
+    width: 6rem;
     margin-top: -0.7rem;
-    margin-left: -1.3rem;
+    margin-left: -1.1rem;
 }
 
   .second h1 {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
   }
 
   .second h2 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .second p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .second .date p {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   .second .date .day {
@@ -351,7 +346,7 @@
   }
 
   .first p {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-weight: 500;
   }
 
@@ -361,11 +356,11 @@
   }
 
   .third {
-    padding-bottom: 436px;
+    padding-bottom: 389px;
   }
 
   .tools {
-    margin-right: 1rem;
+    margin-right: 10rem;
   }
   .third .tools .icon {
     border-radius: 10rem;
@@ -380,7 +375,7 @@
   }
 
 .flower-4 {
-  width: 15rem;
+  width: 7rem;
 }
 
   .third .tools .icon {
@@ -393,31 +388,31 @@
   }
 
   .third .tools p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 900;
     color: #000;
-    width: 5rem;
+    width: 7rem;
     height: 1rem;
     text-align: center;
     font-family: "Abhaya Libre", serif;
+    margin-right: 1rem;
   }
   }
 
-/* Dispositivos muito pequenos (telefones em modo paisagem) */
-@media (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 375px) {
 
   .flower-1 {
-    width: 9rem;
+    width: 6rem;
   }
 
   .first .picture .flower-3 {
     width: 7rem;
-    margin-top: 7.5rem;
-    margin-left: 9rem;
+    margin-top: 5.6rem;
+    margin-left: 6.3rem;
   }
 
   .first .picture img {
-    width: 15rem;
+    width: 12rem;
   }
 
 .first .picture .flower-2 {
@@ -427,23 +422,23 @@
 }
 
   .second h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   .second h2 {
-    font-size: 1.8rem;
-  }
-
-  .second p {
-    font-size: 1rem;
-  }
-
-  .second .date p {
     font-size: 1.5rem;
   }
 
+  .second p {
+    font-size: 0.8rem;
+  }
+
+  .second .date p {
+    font-size: 1.3rem;
+  }
+
   .second .date .day {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 
   .third .tools {
@@ -451,6 +446,46 @@
   }
 
   .third {
-    padding-bottom: 474px;
+    padding-bottom: 443px;
+  }
+
+  .third .tools .icon {
+    border-radius: 10rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: #897C65;
+    padding: 1rem;
+    margin-right: 0;
+  }
+
+  .third .tools .icon img {
+    width: 2.8rem;
+  }
+
+.flower-4 {
+  width: 7rem;
+}
+
+  .third .tools .icon {
+    border-radius: 10rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: #897C65;
+    padding: 1rem;
+  }
+
+  .third .tools p {
+    font-size: 1rem;
+    font-weight: 900;
+    color: #000;
+    width: 6rem;
+    height: 1rem;
+    text-align: center;
+    font-family: "Abhaya Libre", serif;
+    margin-left: 1rem;
+  }
+
+  .tools {
+    margin-left: 6rem;
   }
 }
