@@ -1,5 +1,5 @@
-
-.page{
+/* Estilos gerais */
+.page {
   width: 100%;
   height: 100%;
   background-color: #FFFBF4;
@@ -7,51 +7,55 @@
   display: flex;
   flex-direction: column;
 }
-.flower-1{
+
+.flower-1 {
   position: absolute;
   margin-top: -1rem;
   width: 20rem;
 }
-.first{
+
+.first {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
-  .picture{
-    display: flex;
-    flex-direction: column;
-
-    .flower-2{
-      position: absolute;
-      width: 10rem;
-      margin-top: -1rem;
-      margin-left: -2rem;
-    }
-    .flower-3{
-      position: absolute;
-      width: 10rem;
-      margin-top: 17rem;
-      margin-left: 21.5rem;
-    }
-    img{
-      width: 30rem;
-      border-radius: 1rem;
-    }
-  }
-
-  p{
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: #000;
-    margin-top: 2rem;
-    text-align: center;
-    font-family: "Abhaya Libre", serif;
-    margin-bottom: 1rem;
-  }
-
 }
-.second{
+
+.first .picture {
+  display: flex;
+  flex-direction: column;
+}
+
+.first .picture .flower-2 {
+  position: absolute;
+  width: 10rem;
+  margin-top: -1rem;
+  margin-left: -2rem;
+}
+
+.first .picture .flower-3 {
+  position: absolute;
+  width: 10rem;
+  margin-top: 17rem;
+  margin-left: 21.5rem;
+}
+
+.first .picture img {
+  width: 30rem;
+  border-radius: 1rem;
+}
+
+.first p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #000;
+  margin-top: 2rem;
+  text-align: center;
+  font-family: "Abhaya Libre", serif;
+  margin-bottom: 1rem;
+}
+
+.second {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,113 +63,394 @@
   background-color: #ffff;
   width: 100%;
   border: 1px solid #000000b7;
-  h1{
-    font-family: "Allura", cursive;
-    color: #CEAE72;
-    font-size: 6rem;
-    font-weight: 500;;
-    margin-top: 2rem;
-    text-align: center;
-  }
-  h2{
-    font-family: "Abhaya Libre", serif;
-    color: #816E4C;
-    font-size: 3rem;
-    font-weight: 500;;
-    margin-top: 2rem;
-    text-align: center;
-  }
-  p{
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: #000;
-    margin-top: 1rem;
-    text-align: center;
-    font-family: "Abhaya Libre", serif;
-  }
-  .date{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    p{
-      font-size: 3rem;
-      font-weight: 500;
-      color: #000;
-      margin-top: 1rem;
-      text-align: center;
-      font-family: "Abhaya Libre", serif;
-      margin-right: 0.5rem;
-    }
-    .day{
-      color: #816E4C;
-      font-size:4rem;
-    }
-  }
 }
-.loc{
+
+.second h1 {
+  font-family: "Allura", cursive;
+  color: #CEAE72;
+  font-size: 6rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.second h2 {
+  font-family: "Abhaya Libre", serif;
+  color: #816E4C;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.second p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #000;
+  margin-top: 1rem;
+  text-align: center;
+  font-family: "Abhaya Libre", serif;
+}
+
+.second .date {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.second .date p {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #000;
+  margin-top: 1rem;
+  text-align: center;
+  font-family: "Abhaya Libre", serif;
+  margin-right: 0.5rem;
+}
+
+.second .date .day {
+  color: #816E4C;
+  font-size: 4rem;
+}
+
+.loc {
   font-family: "Abyssinica SIL", serif;
   font-size: 3rem;
   margin-bottom: 1rem;
 }
-.third{
+
+.third {
   background-color: #FFFBF4;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding-bottom: 10rem;
-
-  p{
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: #000;
-    margin-top: 2rem;
-    text-align: center;
-    font-family: "Abhaya Libre", serif;
-  }
-  .tools{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
-    width: 50%;
-    margin-top: 3rem;
-    div{
-      cursor: pointer;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      .icon{
-        border-radius: 10rem;
-        width: 5rem;
-        height: 5rem;
-        background-color: #897C65;
-        padding: 1rem;
-        img{
-          width: 4rem;
-        }
-      }
-      p{
-        font-size: 1.5rem;
-        font-weight: 900;
-        color: #000;
-        width: 9rem;
-        height: 1rem;
-        text-align: center;
-        font-family: "Abhaya Libre", serif;
-
-      }
-    }
-
-  }
 }
-.flower-4{
+
+.third p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #000;
+  margin-top: 2rem;
+  text-align: center;
+  font-family: "Abhaya Libre", serif;
+}
+
+.third .tools {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  width: 50%;
+  margin-top: 3rem;
+}
+
+.third .tools div {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.third .tools .icon {
+  border-radius: 10rem;
+  width: 5rem;
+  height: 5rem;
+  background-color: #897C65;
+  padding: 1rem;
+}
+
+.third .tools .icon img {
+  width: 4rem;
+}
+
+.third .tools p {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #000;
+  width: 9rem;
+  height: 1rem;
+  text-align: center;
+  font-family: "Abhaya Libre", serif;
+}
+
+.flower-4 {
   position: absolute;
   margin-top: 69.9rem;
   width: 20rem;
   align-self: flex-end;
 }
 
+/* Media Queries */
 
+/* Dispositivos muito grandes (monitores grandes e TVs) */
+@media (min-width: 1200px) {
+  .first .picture img {
+    width: 30rem;
+  }
+
+  .second h1 {
+    font-size: 6rem;
+  }
+
+  .second h2 {
+    font-size: 3rem;
+  }
+
+  .second p {
+    font-size: 1.5rem;
+  }
+
+  .second .date p {
+    font-size: 3rem;
+  }
+
+  .second .date .day {
+    font-size: 4rem;
+  }
+
+  .third .tools {
+    width: 50%;
+  }
+}
+
+/* Dispositivos médios (tablets em modo retrato, telefones em modo paisagem) */
+@media (min-width: 600px) and (max-width: 991px) {
+
+  .flower-1 {
+    width: 15rem;
+  }
+
+  .first .picture .flower-3 {
+    width: 7rem;
+    margin-top: 11.5rem;
+    margin-left: 14.3rem;
+  }
+
+.first .picture .flower-2 {
+    width: 7rem;
+    margin-top: -0.7rem;
+    margin-left: -1.3rem;
+}
+
+  .first .picture img {
+    width: 20rem;
+    border-radius: 1rem;
+  }
+
+  .second h1 {
+    font-size: 4rem;
+  }
+
+  .second h2 {
+    font-size: 1.8rem;
+  }
+
+  .second p {
+    font-size: 1.2rem;
+  }
+
+  .second .date p {
+    font-size: 2rem;
+  }
+
+  .second .date .day {
+    font-size: 2rem;
+  }
+
+  .first p {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .tools {
+    display: flex;
+    justify-content: center;
+  }
+
+  .third {
+    padding-bottom: 359px;
+  }
+
+  .tools {
+    margin-right: 1rem;
+  }
+  .third .tools .icon {
+    border-radius: 10rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: #897C65;
+    padding: 1rem;
+  }
+
+  .third .tools .icon img {
+    width: 3.7rem;
+  }
+
+  .third .tools p {
+  font-size: 1.3rem;
+  font-weight: 900;
+  width: 9rem;
+  height: 1rem;
+  text-align: center;
+  font-family: "Abhaya Libre", serif;
+  margin-right: 0rem;
+}
+
+.flower-4 {
+  width: 15rem;
+}
+
+  }
+
+
+/* Dispositivos pequenos (telefones em modo retrato) */
+@media (max-width: 599px) {
+
+  .flower-1 {
+    width: 12rem;
+  }
+
+  .first .picture .flower-3 {
+    width: 7rem;
+    margin-top: 10rem;
+    margin-left: 12.3rem;
+  }
+
+  .first .picture img {
+    width: 18rem;
+  }
+
+.first .picture .flower-2 {
+    width: 7rem;
+    margin-top: -0.7rem;
+    margin-left: -1.3rem;
+}
+
+  .second h1 {
+    font-size: 3.5rem;
+  }
+
+  .second h2 {
+    font-size: 1.8rem;
+  }
+
+  .second p {
+    font-size: 1.2rem;
+  }
+
+  .second .date p {
+    font-size: 2rem;
+  }
+
+  .second .date .day {
+    font-size: 2rem;
+  }
+
+  .first p {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
+  .tools {
+    display: flex;
+    justify-content: center;
+  }
+
+  .third {
+    padding-bottom: 436px;
+  }
+
+  .tools {
+    margin-right: 1rem;
+  }
+  .third .tools .icon {
+    border-radius: 10rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: #897C65;
+    padding: 1rem;
+  }
+
+  .third .tools .icon img {
+    width: 2.8rem;
+  }
+
+.flower-4 {
+  width: 15rem;
+}
+
+  .third .tools .icon {
+    border-radius: 10rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: #897C65;
+    padding: 1rem;
+    margin-right: 0rem;
+  }
+
+  .third .tools p {
+    font-size: 1rem;
+    font-weight: 900;
+    color: #000;
+    width: 5rem;
+    height: 1rem;
+    text-align: center;
+    font-family: "Abhaya Libre", serif;
+  }
+  }
+
+/* Dispositivos muito pequenos (telefones em modo paisagem) */
+@media (max-width: 480px) {
+
+  .flower-1 {
+    width: 9rem;
+  }
+
+  .first .picture .flower-3 {
+    width: 7rem;
+    margin-top: 7.5rem;
+    margin-left: 9rem;
+  }
+
+  .first .picture img {
+    width: 15rem;
+  }
+
+.first .picture .flower-2 {
+    width: 7rem;
+    margin-top: -0.7rem;
+    margin-left: -1.3rem;
+}
+
+  .second h1 {
+    font-size: 3.5rem;
+  }
+
+  .second h2 {
+    font-size: 1.8rem;
+  }
+
+  .second p {
+    font-size: 1rem;
+  }
+
+  .second .date p {
+    font-size: 1.5rem;
+  }
+
+  .second .date .day {
+    font-size: 2.5rem;
+  }
+
+  .third .tools {
+    width: 85%;
+  }
+
+  .third {
+    padding-bottom: 474px;
+  }
+}
