@@ -2,11 +2,13 @@
 .page {
   width: 100%;
   height: 100%;
-  background-color: #FFFBF4;
+  background: #fff2da;
   padding-top: 1rem;
   display: flex;
   flex-direction: column;
 }
+
+
 
 .flower-1 {
   position: absolute;
@@ -19,25 +21,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-right: -1rem;
 }
 
 .first .picture {
   display: flex;
   flex-direction: column;
-}
-
-.first .picture .flower-2 {
-  position: absolute;
-  width: 10rem;
-  margin-top: -1rem;
-  margin-left: -2rem;
-}
-
-.first .picture .flower-3 {
-  position: absolute;
-  width: 10rem;
-  margin-top: 17rem;
-  margin-left: 21.5rem;
 }
 
 .first .picture img {
@@ -51,7 +40,7 @@
   color: #000;
   margin-top: 2rem;
   text-align: center;
-  font-family: "Abhaya Libre", serif;
+  font-family: "Alegreya Sans", sans-serif;
   margin-bottom: 1rem;
 }
 
@@ -67,16 +56,23 @@
 
 .second h1 {
   font-family: "Allura", cursive;
-  color: #CEAE72;
+  color: #946445;
   font-size: 6rem;
   font-weight: 500;
   margin-top: 2rem;
   text-align: center;
 }
 
+.second .day{
+  color: #946445;
+  font-size: 4rem;
+  margin-bottom: -1rem;
+  margin-top: 0;
+}
+
 .second h2 {
   font-family: "Abhaya Libre", serif;
-  color: #816E4C;
+  color: #946445;
   font-size: 3rem;
   font-weight: 500;
   margin-top: 2rem;
@@ -89,7 +85,7 @@
   color: #000;
   margin-top: 1rem;
   text-align: center;
-  font-family: "Abhaya Libre", serif;
+  font-family: "Alegreya Sans", sans-serif;
 }
 
 .second .date {
@@ -110,7 +106,7 @@
 }
 
 .second .date .day {
-  color: #816E4C;
+  color: #946445;
   font-size: 4rem;
 }
 
@@ -121,21 +117,20 @@
 }
 
 .third {
-  background-color: #FFFBF4;
+  background: #fff2da;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 10rem;
 }
 
 .third p {
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 800;
   color: #000;
   margin-top: 2rem;
   text-align: center;
-  font-family: "Abhaya Libre", serif;
+  font-family: "Alegreya Sans", sans-serif;
 }
 
 .third .tools {
@@ -159,7 +154,7 @@
   border-radius: 10rem;
   width: 5rem;
   height: 5rem;
-  background-color: #897C65;
+  background-color: #4d1f04;
   padding: 1rem;
 }
 
@@ -169,18 +164,19 @@
 
 .third .tools p {
   font-size: 1.5rem;
-  font-weight: 900;
+  font-weight: 700;
   color: #000;
   width: 9rem;
   height: 1rem;
   text-align: center;
-  font-family: "Abhaya Libre", serif;
+  font-family: "Alegreya Sans", sans-serif;
 }
 
 .flower-4 {
   width: 20rem;
   align-self: flex-end;
-  margin-top: -17rem;
+  margin-top: 1rem;
+  margin-right: -1rem;
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -216,17 +212,6 @@
     width: 10rem;
   }
 
-  .first .picture .flower-3 {
-    width: 7rem;
-    margin-top: 11.5rem;
-    margin-left: 14.3rem;
-  }
-
-.first .picture .flower-2 {
-    width: 7rem;
-    margin-top: -0.7rem;
-    margin-left: -1.3rem;
-}
 
   .first .picture img {
     width: 20rem;
@@ -258,13 +243,10 @@
     font-weight: 500;
   }
 
-  .third {
-    padding-bottom: 12rem;
-  }
 
 .flower-4 {
   width: 15rem;
-  margin-top: -12rem;
+  margin-top: 1rem;
 }
 
 .tools{
@@ -274,30 +256,21 @@
   }
 
 
-@media (max-width: 425px) {
+@media (max-width: 599px){
 
   .flower-1 {
-    width: 7rem;
+    width: 6rem;
   }
 
-  .first .picture .flower-3 {
-    width: 6rem;
-    margin-top: 8rem;
-    margin-left: 10rem;
-  }
+
 
   .first .picture img {
     width: 15rem;
   }
 
-.first .picture .flower-2 {
-    width: 6rem;
-    margin-top: -0.7rem;
-    margin-left: -1.1rem;
-}
 
   .second h1 {
-    font-size: 3.2rem;
+    font-size: 4rem;
   }
 
   .second h2 {
@@ -319,6 +292,7 @@
   .first p {
     font-size: 0.9rem;
     font-weight: 500;
+    width: 19rem;
   }
 
   .tools {
@@ -327,13 +301,15 @@
   }
 
   .third {
-    padding-bottom: 10rem;
+    padding-bottom: 0rem;
+    margin-right: -1rem;
   }
 
 
 .flower-4 {
-  width: 7rem;
-  margin-top: -6rem;
+  width: 8rem;
+  margin-top: 2rem;
+  margin-right: 0;
 }
 
 .tools{
@@ -342,3 +318,5 @@
 
 
   }
+
+
