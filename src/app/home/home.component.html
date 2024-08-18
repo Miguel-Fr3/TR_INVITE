@@ -25,20 +25,30 @@
       </div>
       <div (click)="navigateTo('https://api.whatsapp.com/send?phone=5511980787843&text=Confirmo%20minha%20presença.')">
         <div class="icon">
-          <img src="../../assets/icon-2.svg" >
+          <img src="../../assets/icon-2.svg">
         </div>
-        <p>Confirmação
-          de presença</p>
+        <p>Confirmação de presença</p>
       </div>
-      <div (click)="navigateTo('https://www.precolandia.com.br/gift-list-details/view/tatiane-e-roberto')">
+      <div (click)="openModal()">
         <div class="icon">
           <img src="../../assets/icon-3.svg">
         </div>
-        <p>Lista de
-          presentes</p>
+        <p>Lista de presentes</p>
       </div>
     </div>
+
     <img src="../../assets/flower-4.svg" alt="Flores" class="flower-4">
   </div>
 
+</div>
+
+<div class="modal" [class.show]="isModalOpen" (click)="closeModal()">
+  <div class="modal-content" (click)="$event.stopPropagation()">
+    <span class="close" (click)="closeModal()">&times;</span>
+    <div class="links">
+      <h2>Lista de presentes disponível em:</h2>
+      <a href="https://listas.casasbahia.com.br/tatianeeroberto2024" target="_blank">Casas Bahia</a>
+      <a href="https://www.precolandia.com.br/gift-list-details/view/tatiane-e-roberto" target="_blank">PreçoLandia</a>
+    </div>
+  </div>
 </div>
